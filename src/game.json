@@ -1,0 +1,963 @@
+{
+ "coins": {
+  "base": 5,
+  "check": 15,
+  "daily": 20,
+  "perStar": 5,
+  "place": 25,
+  "start": 100
+ },
+ "difficulties": [
+  {
+   "colours": [
+    "#27c2a8",
+    "#6fd36b"
+   ],
+   "decoys": 0,
+   "grid": 70,
+   "grouped": true,
+   "id": "easy",
+   "name": "Easy",
+   "starters": 2,
+   "text": "Small grid, common words, and two words placed for you to start from."
+  },
+  {
+   "colours": [
+    "#3a8dde",
+    "#8e6cf0"
+   ],
+   "decoys": 0,
+   "grid": 82,
+   "grouped": true,
+   "id": "medium",
+   "name": "Medium",
+   "starters": 1,
+   "text": "Bigger grid, one word placed. Always solvable by logic alone."
+  },
+  {
+   "colours": [
+    "#7b4fd6",
+    "#e0499b"
+   ],
+   "decoys": 0,
+   "grid": 95,
+   "grouped": false,
+   "id": "hard",
+   "name": "Hard",
+   "starters": 0,
+   "text": "No words placed, and the list isn't sorted by length. You'll have to try things."
+  },
+  {
+   "colours": [
+    "#ff7a3d",
+    "#d9304f"
+   ],
+   "decoys": 2,
+   "grid": 100,
+   "grouped": false,
+   "id": "expert",
+   "name": "Expert",
+   "starters": 0,
+   "text": "The full grid, rarer words, two decoys that fit nowhere, and no warning when crossings clash."
+  }
+ ],
+ "grids": {
+  "phone": [
+   12,
+   12
+  ],
+  "tablet": [
+   20,
+   20
+  ]
+ },
+ "menu": [
+  "#ff9a3c",
+  "#e8457c"
+ ],
+ "modes": [
+  {
+   "id": "daily",
+   "name": "Daily Puzzle",
+   "text": "One Medium puzzle a day, the same for everyone"
+  },
+  {
+   "id": "zen",
+   "name": "Zen",
+   "text": "No clock. Just words."
+  },
+  {
+   "id": "classic",
+   "name": "Classic",
+   "text": "Beat the par time for a bonus"
+  },
+  {
+   "id": "attack",
+   "name": "Time Attack",
+   "text": "Solve as many as you can before time runs out"
+  }
+ ],
+ "puzzles": {
+  "af": [
+   {
+    "height": 8,
+    "slots": [
+     {
+      "down": false,
+      "word": "VERVANG",
+      "x": 0,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "DOEN",
+      "x": 1,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "DIGTER",
+      "x": 1,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "TEATER",
+      "x": 4,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "STERF",
+      "x": 2,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "SWAK",
+      "x": 2,
+      "y": 4
+     },
+     {
+      "down": false,
+      "word": "NAG",
+      "x": 1,
+      "y": 6
+     }
+    ],
+    "starters": [
+     3,
+     2
+    ],
+    "width": 7
+   },
+   {
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "TYDPERK",
+      "x": 0,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "PAD",
+      "x": 2,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "WEL",
+      "x": 4,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "EGTER",
+      "x": 0,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "GESKENK",
+      "x": 6,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "ERG",
+      "x": 4,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "TRONK",
+      "x": 2,
+      "y": 6
+     }
+    ],
+    "starters": [
+     0,
+     4
+    ],
+    "width": 7
+   },
+   {
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "ONTKEN",
+      "x": 0,
+      "y": 6
+     },
+     {
+      "down": true,
+      "word": "ELK",
+      "x": 3,
+      "y": 4
+     },
+     {
+      "down": false,
+      "word": "MOES",
+      "x": 1,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "DIS",
+      "x": 4,
+      "y": 2
+     },
+     {
+      "down": false,
+      "word": "TWEEDE",
+      "x": 0,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "EIE",
+      "x": 5,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "AKSIE",
+      "x": 1,
+      "y": 0
+     }
+    ],
+    "starters": [
+     5,
+     4
+    ],
+    "width": 6
+   },
+   {
+    "height": 6,
+    "slots": [
+     {
+      "down": false,
+      "word": "GEBEURE",
+      "x": 0,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "BEL",
+      "x": 3,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "URE",
+      "x": 5,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "SEWE",
+      "x": 1,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "EEU",
+      "x": 0,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "ERG",
+      "x": 0,
+      "y": 3
+     },
+     {
+      "down": false,
+      "word": "GEGEE",
+      "x": 0,
+      "y": 5
+     }
+    ],
+    "starters": [
+     0,
+     5
+    ],
+    "width": 7
+   }
+  ],
+  "en": [
+   {
+    "height": 8,
+    "slots": [
+     {
+      "down": false,
+      "word": "TAKING",
+      "x": 1,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "LAWS",
+      "x": 2,
+      "y": 2
+     },
+     {
+      "down": false,
+      "word": "BESIDES",
+      "x": 0,
+      "y": 5
+     },
+     {
+      "down": true,
+      "word": "BIGGEST",
+      "x": 6,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "HIT",
+      "x": 5,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "BIRDS",
+      "x": 4,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "ABLE",
+      "x": 0,
+      "y": 4
+     }
+    ],
+    "starters": [
+     2,
+     3
+    ],
+    "width": 8
+   },
+   {
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "ALREADY",
+      "x": 0,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "SHE",
+      "x": 3,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "JOY",
+      "x": 6,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "RISE",
+      "x": 1,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "LUNCH",
+      "x": 1,
+      "y": 2
+     },
+     {
+      "down": false,
+      "word": "HAD",
+      "x": 1,
+      "y": 6
+     },
+     {
+      "down": false,
+      "word": "INDEED",
+      "x": 0,
+      "y": 4
+     }
+    ],
+    "starters": [
+     0,
+     4
+    ],
+    "width": 7
+   },
+   {
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "WHISTLE",
+      "x": 0,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "ILL",
+      "x": 5,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "THE",
+      "x": 1,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "SIX",
+      "x": 3,
+      "y": 4
+     },
+     {
+      "down": false,
+      "word": "DURING",
+      "x": 2,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "RED",
+      "x": 2,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "BROKE",
+      "x": 1,
+      "y": 0
+     }
+    ],
+    "starters": [
+     0,
+     1
+    ],
+    "width": 8
+   },
+   {
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "BEATING",
+      "x": 1,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "SON",
+      "x": 6,
+      "y": 2
+     },
+     {
+      "down": false,
+      "word": "SHOES",
+      "x": 2,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "LISTEN",
+      "x": 2,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "POLICY",
+      "x": 0,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "PAID",
+      "x": 0,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "GAS",
+      "x": 7,
+      "y": 4
+     }
+    ],
+    "starters": [
+     3,
+     0
+    ],
+    "width": 8
+   }
+  ],
+  "sym": [
+   {
+    "cipher": {
+     "A": 1,
+     "B": 0,
+     "C": 24,
+     "D": 28,
+     "E": 7,
+     "F": 2,
+     "G": 30,
+     "H": 22,
+     "I": 11,
+     "J": 21,
+     "K": 29,
+     "L": 32,
+     "M": 20,
+     "N": 3,
+     "O": 27,
+     "P": 33,
+     "Q": 13,
+     "R": 35,
+     "S": 17,
+     "T": 19,
+     "U": 23,
+     "V": 9,
+     "W": 5,
+     "X": 15,
+     "Y": 16,
+     "Z": 14
+    },
+    "height": 5,
+    "slots": [
+     {
+      "down": false,
+      "word": "ASSURE",
+      "x": 2,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "TEA",
+      "x": 7,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "BUT",
+      "x": 5,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "GRAND",
+      "x": 2,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "BEGAN",
+      "x": 0,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "RIDE",
+      "x": 0,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "CAR",
+      "x": 0,
+      "y": 2
+     }
+    ],
+    "starters": [
+     0,
+     3
+    ],
+    "width": 8
+   },
+   {
+    "cipher": {
+     "A": 18,
+     "B": 13,
+     "C": 12,
+     "D": 11,
+     "E": 3,
+     "F": 22,
+     "G": 29,
+     "H": 21,
+     "I": 14,
+     "J": 31,
+     "K": 7,
+     "L": 16,
+     "M": 27,
+     "N": 30,
+     "O": 6,
+     "P": 32,
+     "Q": 35,
+     "R": 23,
+     "S": 33,
+     "T": 0,
+     "U": 1,
+     "V": 2,
+     "W": 8,
+     "X": 17,
+     "Y": 19,
+     "Z": 34
+    },
+    "height": 8,
+    "slots": [
+     {
+      "down": false,
+      "word": "FALLING",
+      "x": 0,
+      "y": 5
+     },
+     {
+      "down": true,
+      "word": "AGO",
+      "x": 6,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "SOLD",
+      "x": 3,
+      "y": 3
+     },
+     {
+      "down": false,
+      "word": "CASES",
+      "x": 1,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "COACH",
+      "x": 1,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "DIES",
+      "x": 5,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "AFFAIR",
+      "x": 1,
+      "y": 1
+     }
+    ],
+    "starters": [
+     0,
+     3
+    ],
+    "width": 7
+   },
+   {
+    "cipher": {
+     "A": 2,
+     "B": 1,
+     "C": 29,
+     "D": 16,
+     "E": 3,
+     "F": 6,
+     "G": 34,
+     "H": 18,
+     "I": 20,
+     "J": 23,
+     "K": 4,
+     "L": 15,
+     "M": 33,
+     "N": 0,
+     "O": 25,
+     "P": 9,
+     "Q": 13,
+     "R": 32,
+     "S": 27,
+     "T": 19,
+     "U": 26,
+     "V": 21,
+     "W": 35,
+     "X": 14,
+     "Y": 22,
+     "Z": 7
+    },
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "PASSION",
+      "x": 0,
+      "y": 1
+     },
+     {
+      "down": true,
+      "word": "KNOW",
+      "x": 6,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "LAB",
+      "x": 1,
+      "y": 0
+     },
+     {
+      "down": false,
+      "word": "BLEW",
+      "x": 3,
+      "y": 3
+     },
+     {
+      "down": true,
+      "word": "LED",
+      "x": 4,
+      "y": 3
+     },
+     {
+      "down": false,
+      "word": "HOLD",
+      "x": 1,
+      "y": 5
+     },
+     {
+      "down": true,
+      "word": "JOB",
+      "x": 2,
+      "y": 4
+     }
+    ],
+    "starters": [
+     4,
+     3
+    ],
+    "width": 7
+   },
+   {
+    "cipher": {
+     "A": 28,
+     "B": 29,
+     "C": 6,
+     "D": 8,
+     "E": 31,
+     "F": 11,
+     "G": 13,
+     "H": 9,
+     "I": 12,
+     "J": 26,
+     "K": 15,
+     "L": 7,
+     "M": 23,
+     "N": 21,
+     "O": 34,
+     "P": 24,
+     "Q": 14,
+     "R": 22,
+     "S": 25,
+     "T": 3,
+     "U": 30,
+     "V": 16,
+     "W": 4,
+     "X": 17,
+     "Y": 1,
+     "Z": 2
+    },
+    "height": 7,
+    "slots": [
+     {
+      "down": false,
+      "word": "ENTIRE",
+      "x": 0,
+      "y": 2
+     },
+     {
+      "down": true,
+      "word": "EAST",
+      "x": 0,
+      "y": 2
+     },
+     {
+      "down": false,
+      "word": "SHUT",
+      "x": 0,
+      "y": 4
+     },
+     {
+      "down": true,
+      "word": "WRITTEN",
+      "x": 3,
+      "y": 0
+     },
+     {
+      "down": true,
+      "word": "DEVIL",
+      "x": 5,
+      "y": 1
+     },
+     {
+      "down": false,
+      "word": "PEN",
+      "x": 1,
+      "y": 6
+     },
+     {
+      "down": false,
+      "word": "SLOW",
+      "x": 0,
+      "y": 0
+     }
+    ],
+    "starters": [
+     3,
+     0
+    ],
+    "width": 6
+   }
+  ]
+ },
+ "themes": [
+  {
+   "decor": [],
+   "id": "sunset",
+   "name": "Sunset",
+   "palette": [],
+   "price": 0,
+   "text": "The original: a new colour for each difficulty",
+   "tile": [
+    "#fff3d6",
+    "#e5c27e",
+    "#4a1942",
+    "#f1e4ff",
+    "#c7b0e8",
+    "#7d5c8f"
+   ]
+  },
+  {
+   "decor": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "id": "ocean",
+   "name": "Ocean",
+   "palette": [
+    "#22b8cf",
+    "#1b3f8f"
+   ],
+   "price": 300,
+   "text": "Bubbles, shells and a sea breeze",
+   "tile": [
+    "#effaff",
+    "#93c6e6",
+    "#123f6b",
+    "#d9f2ff",
+    "#7fb6db",
+    "#3f6f96"
+   ]
+  },
+  {
+   "decor": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "id": "fynbos",
+   "name": "Fynbos",
+   "palette": [
+    "#8fcf6a",
+    "#c0508f"
+   ],
+   "price": 500,
+   "text": "Proteas and sunbirds on a Cape afternoon",
+   "tile": [
+    "#fff6e8",
+    "#d9b27a",
+    "#3d2a18",
+    "#ffe6ee",
+    "#e3a3bd",
+    "#8a4a63"
+   ]
+  },
+  {
+   "decor": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "id": "night",
+   "name": "Night Sky",
+   "palette": [
+    "#3b3f9a",
+    "#0f1233"
+   ],
+   "price": 500,
+   "text": "Stars, moons and planets",
+   "tile": [
+    "#fff7da",
+    "#e0b84a",
+    "#2a1f5c",
+    "#e4e6ff",
+    "#a9aee8",
+    "#4b4f9a"
+   ]
+  },
+  {
+   "decor": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "id": "candy",
+   "name": "Candy",
+   "palette": [
+    "#ff9ccf",
+    "#7fdcc6"
+   ],
+   "price": 800,
+   "text": "Lollipops, donuts and sprinkles",
+   "tile": [
+    "#fff0f7",
+    "#f4a7c8",
+    "#7a1f4f",
+    "#e6fff8",
+    "#93dcc8",
+    "#2f7a68"
+   ]
+  }
+ ],
+ "version": "0.2.0",
+ "words": {
+  "af": 10000,
+  "en": 16500
+ }
+}

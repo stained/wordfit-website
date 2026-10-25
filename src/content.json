@@ -1,0 +1,122 @@
+{
+ "site": {
+  "url": "https://wordfit.tfinn.co.za",
+  "name": "Word Fit",
+  "tagline": "Crossword Fill-In",
+  "pitch": "A crossword with the answers already given. All you have to do is make them fit.",
+  "description": "Word Fit is a free fill-in crossword: every word is listed, and you drag each one into the grid where it fits. Four difficulties, a daily puzzle, Time Attack, and puzzles in English, Afrikaans and Symbols. For iPhone, iPad, Android, Mac, Windows and Linux."
+ },
+ "contact": {
+  "email": "support@tfinn.co.za",
+  "studio": "TFINN",
+  "studioUrl": "https://tfinn.co.za",
+  "studioTagline": "The Future is Now-Now",
+  "company": "The Future is Now-Now (PTY) Ltd",
+  "effective": "25 October 2026",
+  "updated": "25 October 2026"
+ },
+ "hero": "No clues to crack. Every word is in the list: read the grid, count the letters, and drag each word to the one place it fits. Crossings lock it all together.",
+ "trailer": {
+  "youtube": "",
+  "title": "The trailer"
+ },
+ "how": [
+  { "icon": "sparkle", "title": "Pick up a word", "text": "Press a word in the list. It lifts off and follows your finger, sitting just above it so you can see where it lands." },
+  { "icon": "star", "title": "Drop it in a slot", "text": "Let go over a row or column of the same length. Tap a word, then a square, if you'd rather not drag." },
+  { "icon": "trophy", "title": "Fit every word", "text": "Where words cross they must share a letter. Fill the grid and the puzzle is solved: faster, with fewer mistakes, earns more stars." }
+ ],
+ "modeIcons": { "daily": "calendar", "zen": "music", "classic": "trophy", "attack": "clock" },
+ "languages": [
+  { "id": "en", "name": "English", "shot": "drag", "text": "Over 16,000 everyday words, from the films and series people actually watch: common ones on Easy, rarer ones on Expert." },
+  { "id": "af", "name": "Afrikaans", "shot": "afrikaans", "text": "Ten thousand Afrikaans words, with the interface in Afrikaans too: Maklik to Kenner. Rare in word games, and a proper workout." },
+  { "id": "sym", "name": "Symbols", "shot": "symbols", "text": "English words with every letter drawn as a picture, and a new code for every puzzle. You can't read them, so you match their shapes." }
+ ],
+ "downloads": {
+  "version": "0.2.0",
+  "checksums": "",
+  "builds": [
+   {
+    "id": "iphone",
+    "platform": "iPhone and iPad",
+    "kind": "phone",
+    "detail": "iOS 15 and later. Bigger grids on iPad.",
+    "store": "App Store",
+    "url": ""
+   },
+   {
+    "id": "android",
+    "platform": "Android",
+    "kind": "phone",
+    "detail": "Phones and tablets, Android 7 and later",
+    "store": "Google Play",
+    "url": ""
+   },
+   {
+    "id": "mac",
+    "platform": "Mac",
+    "kind": "desktop",
+    "detail": "macOS, Apple Silicon and Intel (Universal)",
+    "file": "WordFit-0.2.0-macos-universal.zip",
+    "size": "76 MB",
+    "url": "",
+    "sha256": "43f2a7d866459715db6c81862b58c30a7ad9c2bc7ff9931140f993060eb9ab39",
+    "note": "",
+    "steps": [
+     "Download the ZIP and open it: you get Word Fit.app.",
+     "Drag it into your Applications folder.",
+     "Open it. It's signed and notarised by Apple, so it opens like any other app."
+    ]
+   },
+   {
+    "id": "windows",
+    "platform": "Windows",
+    "kind": "desktop",
+    "detail": "Windows 10 and 11, 64-bit",
+    "file": "WordFit-0.2.0-windows-x86_64.zip",
+    "size": "52 MB",
+    "url": "",
+    "sha256": "64a253cb666f5bdf87d59a2d66afbe5b41de29dc5a1230c6c3f339fcf29ab6bf",
+    "note": "Windows may say it protected your PC, as the game isn't signed for Windows: choose More info, then Run anyway.",
+    "steps": [
+     "Download the ZIP, right-click it and choose Extract All. Running it from inside the ZIP won't work.",
+     "Open the Word Fit folder and run Word Fit.exe.",
+     "Keep the .exe and the files beside it together."
+    ]
+   },
+   {
+    "id": "linux",
+    "platform": "Linux",
+    "kind": "desktop",
+    "detail": "64-bit (x86_64)",
+    "file": "WordFit-0.2.0-linux-x86_64.zip",
+    "size": "43 MB",
+    "url": "",
+    "sha256": "6c84866af3cae46c234f80a8ba654a5531092c8f6c9d6b21fb29f93202d72b23",
+    "note": "",
+    "steps": [
+     "Download the ZIP and extract it.",
+     "Make the game runnable if it isn't: chmod +x WordFit.x86_64.",
+     "Run it from the folder it's in."
+    ]
+   }
+  ]
+ },
+ "faq": [
+  ["How do I take a word back out?", "Drag it off the grid, or tap it twice. It goes back to the list."],
+  ["What are the coins for?", "You earn coins for every puzzle you solve (more for more stars, and a bonus for the daily puzzle). Spend them on hints, or on themes in the Shop: new backgrounds, tiles and music."],
+  ["How do hints work?", "The bulb in the corner has two. Check sends every wrong word back to the list; Place a word puts one word where it belongs and locks it in."],
+  ["Is the daily puzzle the same for everyone?", "Yes: one Medium puzzle a day, the same on every phone, tablet and computer. Solve it on consecutive days to build a streak."],
+  ["How do Symbols work?", "They're English words, with each letter drawn as a picture. Every puzzle has its own code, so a cat isn't always an A: count the pictures, look for repeats, and match the shapes where words cross."],
+  ["Where is my progress kept?", "On your device, in the game's own storage. There are no accounts, so it isn't kept anywhere else: uninstalling the game removes it."],
+  ["Can I play on a computer?", "Yes: there are builds for Mac, Windows and Linux on the <a href=\"/downloads/\">Download</a> page, with the bigger grids iPads get."]
+ ],
+ "credits": [
+  { "name": "Godot Engine", "what": "The game engine (MIT licence)", "url": "https://godotengine.org" },
+  { "name": "FrequencyWords (Hermit Dave), from OpenSubtitles 2018", "what": "Which English and Afrikaans words are common enough to use (CC BY-SA 4.0)", "url": "https://github.com/hermitdave/FrequencyWords" },
+  { "name": "Wikipedia word frequencies (Ilya Semenov)", "what": "The Afrikaans list's second source, from Afrikaans Wikipedia (CC BY-SA 4.0)", "url": "https://github.com/IlyaSemenov/wikipedia-word-frequency" },
+  { "name": "SCOWL and Hunspell dictionaries", "what": "Checking that every word is a real one", "url": "http://wordlist.aspell.net" },
+  { "name": "ElevenLabs", "what": "Sound effects and music", "url": "https://elevenlabs.io" },
+  { "name": "Image models, through OpenRouter", "what": "The icon, the symbols, the themes' decorations and the TFINN badge", "url": "https://openrouter.ai" },
+  { "name": "Fredoka", "what": "The font, under the SIL Open Font Licence", "url": "fonts/Fredoka-OFL.txt" }
+ ]
+}

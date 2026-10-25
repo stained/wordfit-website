@@ -1,0 +1,94 @@
+{
+ "icon": {
+  "src": "assets/game/brand/icon.webp",
+  "width": 256,
+  "height": 256
+ },
+ "tfinn": {
+  "src": "assets/game/brand/tfinn.webp",
+  "width": 256,
+  "height": 256
+ },
+ "sheets": {
+  "icons": {
+   "src": "assets/game/sheets/icons.webp",
+   "width": 512,
+   "height": 512
+  },
+  "decor": {
+   "src": "assets/game/sheets/decor.webp",
+   "width": 512,
+   "height": 512
+  },
+  "symbols": {
+   "src": "assets/game/sheets/symbols.webp",
+   "width": 576,
+   "height": 576
+  }
+ },
+ "audio": {
+  "tap": "assets/game/audio/tap.mp3",
+  "pickup": "assets/game/audio/pickup.mp3",
+  "place": "assets/game/audio/place.mp3",
+  "clash": "assets/game/audio/clash.mp3",
+  "solve": "assets/game/audio/solve.mp3",
+  "music": "assets/game/audio/music.mp3"
+ },
+ "shots": {
+  "menu": {
+   "src": "assets/game/shots/menu.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "drag": {
+   "src": "assets/game/shots/drag.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "afrikaans": {
+   "src": "assets/game/shots/afrikaans.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "symbols": {
+   "src": "assets/game/shots/symbols.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "ocean": {
+   "src": "assets/game/shots/ocean.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "night": {
+   "src": "assets/game/shots/night.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "candy": {
+   "src": "assets/game/shots/candy.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "result": {
+   "src": "assets/game/shots/result.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "shop": {
+   "src": "assets/game/shots/shop.webp",
+   "width": 540,
+   "height": 1170
+  },
+  "desktop": {
+   "src": "assets/game/shots/desktop.webp",
+   "width": 1280,
+   "height": 820
+  },
+  "share": {
+   "src": "assets/game/shots/share.png",
+   "width": 1200,
+   "height": 630
+  }
+ }
+}
