@@ -72,7 +72,7 @@ p { margin: 0 0 1em; }
 .label b { display: inline-grid; place-items: center; min-width: 1.7em; height: 1.7em; border-radius: 8px; background: var(--gold); color: var(--ink); font-size: .85em; letter-spacing: 0; }
 
 .button { display: inline-flex; align-items: center; justify-content: center; gap: .4em; padding: .7em 1.35em .78em; border: 0; border-radius: 18px; background: var(--accent);
-  color: #fff; font: inherit; font-weight: 650; font-size: 1.08rem; text-decoration: none; cursor: pointer; box-shadow: 0 5px 0 var(--accent-dark), 0 8px 18px rgba(74, 25, 66, .2);
+  color: #fff; font: inherit; font-weight: 650; font-size: 1.08rem; text-decoration: none; white-space: nowrap; cursor: pointer; box-shadow: 0 5px 0 var(--accent-dark), 0 8px 18px rgba(74, 25, 66, .2);
   transition: transform .08s, box-shadow .08s; touch-action: manipulation; }
 .button:hover { filter: brightness(1.05); }
 .button:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--accent-dark), 0 3px 8px rgba(74, 25, 66, .2); }
@@ -102,7 +102,7 @@ p { margin: 0 0 1em; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand-icon { width: 38px; height: 38px; border-radius: 10px; }
 .site-nav { display: flex; gap: 4px; margin-left: auto; }
-.site-nav a { padding: .4em .8em; border-radius: 12px; text-decoration: none; font-weight: 600; }
+.site-nav a { padding: .4em .8em; border-radius: 12px; text-decoration: none; font-weight: 600; white-space: nowrap; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { background: var(--well); }
 .switches { display: flex; gap: 6px; }
 .switch { display: inline-flex; align-items: center; gap: .3em; border: 0; border-radius: 12px; padding: .35em .7em; background: var(--well); color: inherit; font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; }
@@ -110,8 +110,8 @@ p { margin: 0 0 1em; }
 .switch[aria-pressed="false"] { opacity: .7; }
 .switch.waiting b { color: var(--accent); }
 .menu-toggle { display: none; margin-left: auto; border: 0; border-radius: 12px; background: var(--well); color: inherit; font: inherit; font-weight: 600; padding: .45em .9em; cursor: pointer; }
-@media (max-width: 900px) {
-  .switch .word { display: none; }
+@media (max-width: 980px) {
+  .switch .word, .head-cta { display: none; }
 }
 @media (max-width: 760px) {
   .menu-toggle { display: block; }
