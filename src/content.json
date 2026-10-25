@@ -33,7 +33,7 @@
  ],
  "downloads": {
   "version": "0.2.0",
-  "checksums": "",
+  "checksums": "https://mega.nz/file/e3IWQYxR#c3Bg60es1uuHg1FMqh424REUAZCss9_KyckbL902YJo",
   "builds": [
    {
     "id": "iphone",
@@ -58,7 +58,7 @@
     "detail": "macOS, Apple Silicon and Intel (Universal)",
     "file": "WordFit-0.2.0-macos-universal.zip",
     "size": "76 MB",
-    "url": "",
+    "url": "https://mega.nz/file/a6ITyBKL#-fsDwL8hMPY6k814Ey50PDi9jyIRkVvioLDl9G6h3-E",
     "sha256": "43f2a7d866459715db6c81862b58c30a7ad9c2bc7ff9931140f993060eb9ab39",
     "note": "",
     "steps": [
@@ -74,7 +74,7 @@
     "detail": "Windows 10 and 11, 64-bit",
     "file": "WordFit-0.2.0-windows-x86_64.zip",
     "size": "52 MB",
-    "url": "",
+    "url": "https://mega.nz/file/OzAXFaQI#vZ-t5V7PAaY6U8L3oKEJxn0bFSGbAoVdDgfVp4gDC9I",
     "sha256": "64a253cb666f5bdf87d59a2d66afbe5b41de29dc5a1230c6c3f339fcf29ab6bf",
     "note": "Windows may say it protected your PC, as the game isn't signed for Windows: choose More info, then Run anyway.",
     "steps": [
@@ -90,7 +90,7 @@
     "detail": "64-bit (x86_64)",
     "file": "WordFit-0.2.0-linux-x86_64.zip",
     "size": "43 MB",
-    "url": "",
+    "url": "https://mega.nz/file/vjBDTaiL#ccz6277zNrLZ8wXgQ1RQvuH5qcV9zDjz5vHAbwktolI",
     "sha256": "6c84866af3cae46c234f80a8ba654a5531092c8f6c9d6b21fb29f93202d72b23",
     "note": "",
     "steps": [

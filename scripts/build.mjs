@@ -302,7 +302,7 @@ const downloads = `<div class="shell page">
   <ul class="builds">${builds.filter(b => b.kind === 'phone').map(buildCard).join('')}</ul>
   <h2 class="group" id="computers">Computers</h2>
   <ul class="builds">${builds.filter(b => b.kind === 'desktop').map(buildCard).join('')}</ul>
-  <p class="small dim">The computer builds are zips hosted on MEGA${c.downloads.checksums ? `, with ${ext(c.downloads.checksums, 'their checksums')}` : ''}. Until they're up, <a href="/#try">try one here</a>.</p>
+  <p class="small dim">The computer builds are zips hosted on MEGA${c.downloads.checksums ? `, with ${ext(c.downloads.checksums, 'their checksums')}` : ''}.${builds.some(b => b.kind === 'desktop' && b.url) ? ' Or <a href="/#try">try one here</a> first.' : ' Until they\'re up, <a href="/#try">try one here</a>.'}</p>
 </div>`;
 
 const credits = `<div class="shell page narrow">
