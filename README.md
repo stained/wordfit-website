@@ -1,6 +1,6 @@
 # Word Fit website
 
-The game's site, https://wordfit.tfinn.co.za (the game: https://github.com/stained/word-fit): a static site in the game's own look (Fredoka, cream letter tiles, white word chips, candy buttons that press down, and the backdrop's gradients: the menu's, and one per difficulty), with the Night Sky theme's ink as the paper in dark mode. Each section's label is a word chip with its length beside it, as the game lists Symbols words.
+The game's site, https://wordfit.tfinn.co.za (source: https://github.com/stained/wordfit-website; the game: https://github.com/stained/word-fit): a static site in the game's own look (Fredoka, cream letter tiles, white word chips, candy buttons that press down, and the backdrop's gradients: the menu's, and one per difficulty), with the Night Sky theme's ink as the paper in dark mode. Each section's label is a word chip with its length beside it, as the game lists Symbols words.
 
 Requires Node.js 22 or later. No dependencies.
 
