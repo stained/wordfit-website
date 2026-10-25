@@ -37,13 +37,13 @@ No cookies, analytics, tracking or third-party requests: the fonts, pictures and
 
 ## Cloudflare Pages
 
-To set up, as Coldshift Racing's: a Pages project connected to this repository through its Git integration, so every push to `main` goes live:
+The Pages project `wordfit-website` is connected to this repository through its Git integration, as Coldshift Racing's is, so every push to `main` goes live (about a minute):
 
 - Production branch: `main`
 - Framework preset: None
 - Build command: `npm run build`
 - Build output directory: `dist`
 - Environment variable: `NODE_VERSION` = `22`
-- Custom domain: `wordfit.tfinn.co.za` (the `tfinn.co.za` zone is in the same Cloudflare account, so Pages adds its CNAME)
+- Custom domain: `wordfit.tfinn.co.za`, a proxied CNAME to `wordfit-website.pages.dev` that Pages added (the `tfinn.co.za` zone is in the same Cloudflare account; its wildcard `*.tfinn.co.za` record stays, and this name takes precedence over it). Also at https://wordfit-website.pages.dev.
 
 The pages ask for `styles.css` and `app.js` by a hash of their contents (`?v=`), so a change shows at once. GitHub Actions (`.github/workflows/check.yml`) builds and checks every push and pull request.
