@@ -99,7 +99,7 @@ ${body}
     <a class="studio" href="${esc(c.contact.studioUrl)}" rel="noopener">${img(media.tfinn, c.contact.studio)}<span><strong>A ${esc(c.contact.studio)} production</strong><small>${esc(c.contact.company)}</small></span></a>
     <div>
       <nav aria-label="More">
-        <a href="/#try">Try one</a><a href="/downloads/">Download</a><a href="/support/">Support</a><a href="/credits/">Credits</a><a href="/privacy/">Privacy</a>
+        <a href="/credits/">Credits</a><a href="/privacy/">Privacy</a>
       </nav>
       <p class="small">Made in Knysna, South Africa. &copy; 2026 ${esc(c.contact.company)}. <a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a></p>
       <p class="small dim">No cookies, no tracking.</p>
