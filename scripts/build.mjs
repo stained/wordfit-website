@@ -47,7 +47,7 @@ const label = word => `<p class="label"><b>${word.length}</b>${esc(word)}</p>`;
 const heading = (word, title, lede = '') => `<header class="page-head">${label(word)}<h1>${title}</h1>${lede ? `<p class="lede">${lede}</p>` : ''}</header>`;
 const phone = (pic, alt, cls = '') => `<figure class="phone${cls ? ' ' + cls : ''}"><div class="screen">${img(pic, alt)}</div></figure>`;
 
-const nav = [['', 'Home'], ['#try', 'Try one'], ['downloads/', 'Download'], ['support/', 'Support']];
+const nav = [['', 'Home'], ['#try', 'Try one'], ['downloads/', 'Download']];
 
 function layout(route, { title, description, body, image = shots.share.src, noindex = false, look = 'menu' }) {
   const full = title ? `${title} | ${c.site.name}` : `${c.site.name}: ${c.site.tagline}`;
@@ -99,7 +99,7 @@ ${body}
     <a class="studio" href="${esc(c.contact.studioUrl)}" rel="noopener">${img(media.tfinn, c.contact.studio)}<span><strong>A ${esc(c.contact.studio)} production</strong><small>${esc(c.contact.company)}</small></span></a>
     <div>
       <nav aria-label="More">
-        <a href="/credits/">Credits</a><a href="/privacy/">Privacy</a>
+        <a href="/support/">Support</a><a href="/credits/">Credits</a><a href="/privacy/">Privacy</a>
       </nav>
       <p class="small">Made in Knysna, South Africa. &copy; 2026 ${esc(c.contact.company)}. <a href="mailto:${esc(c.contact.email)}">${esc(c.contact.email)}</a></p>
       <p class="small dim">No cookies, no tracking.</p>
